@@ -1,0 +1,32 @@
+aid: ipma
+name: IPMA
+description: "Portuguese weather and climate data"
+url: https://api.ipma.pt/open-data/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Weather"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Weather
+  - Public APIs
+apis:
+  - name: IPMA
+    description: "Portuguese weather and climate data"
+    humanURL: https://api.ipma.pt/open-data/
+    baseURL: https://api.ipma.pt/open-data/
+    tags:
+      - Weather
+    properties:
+      - type: Documentation
+        url: https://api.ipma.pt/open-data/
+common:
+  - type: Website
+    url: https://api.ipma.pt/open-data/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
