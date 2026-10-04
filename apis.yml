@@ -39,7 +39,6 @@ apis:
   - name: IPMA
     description: "Portuguese weather and climate data"
     humanURL: https://api.ipma.pt/open-data/
-    baseURL: https://api.ipma.pt/open-data/
     tags:
       - Weather
     properties:
